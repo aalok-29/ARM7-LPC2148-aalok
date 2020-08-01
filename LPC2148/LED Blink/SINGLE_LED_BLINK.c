@@ -1,5 +1,5 @@
 #include<lpc214x.h>  //import LPC libraries
-#include<stdint.h>   //import input output 
+#include<stdint.h>    
 
 void delay_ms(uint16_t j)   // function to provide delay
 {
