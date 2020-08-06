@@ -6,7 +6,7 @@ void delay_ms(uint16_t j)   // function to provide delay
 	uint16_t x,i;
 	for(i=0;i<j;++i)
 	{
-		for(x=0;x<6000;x++);
+		for(x=0;x<60000;x++);
 	}
 	
 }
