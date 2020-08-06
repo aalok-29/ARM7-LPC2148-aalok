@@ -1,6 +1,6 @@
-## LPC2148
+# LPC2148
 
-
+## GPIO(General Purpose Input Output)Pins
 
 **IOPIN:**
 
