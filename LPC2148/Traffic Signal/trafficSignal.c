@@ -12,18 +12,18 @@ while(T0TC!=T0MR0)	; // wait until TC reaches desired delay
 
 
 int main(void)
-{int i;
-	
+{   
+	int pin;
 	while(1)
 	{
 		
-		for(i=5;i<8;++i)
+		for(pin=5;pin<8;++pin)
 		{
-		IO0DIR=(1<<i); //initializing pin 10
-		IO0SET = (1<<i);//setting pin 10 to high
-		delay();       //wait for 500ms
-		IO0CLR = (1<<i); //setting pin 10 to low
-		delay();        //wait for 500ms
+		     IO0DIR=(1<<pin); //initializing pin 10
+		     IO0SET = (1<<pin);//setting pin 10 to high
+		     delay();       //wait for 500ms
+		     IO0CLR = (1<<pin); //setting pin 10 to low
+		     delay();        //wait for 500ms
 		}
 	}
 }
