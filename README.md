@@ -26,4 +26,3 @@ It is a GPIO Port Output Clear Register and can be used to set the value of a GP
 
 The syntax for this register is `IOxCLR`, where ‘x’ is the port number i.e. `IO0CLR` for `PORT0` and `IO1CLR` for `PORT1`.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CZC9B92tRA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
