@@ -25,3 +25,5 @@ The syntax for this register is `IOxSET`, where ‘x’ is the port number i.e. 
 It is a GPIO Port Output Clear Register and can be used to set the value of a GPIO pin that is configured as output to Low (Logic 0). When a bit in the IOCLR register is set to ‘1’, the corresponding pin in the respective Port is set to Logic 0 and at the same time clears the corresponding bit in the IOSET register. Setting ‘0’ in the `IOCLR` has no effect on the pin.
 
 The syntax for this register is `IOxCLR`, where ‘x’ is the port number i.e. `IO0CLR` for `PORT0` and `IO1CLR` for `PORT1`.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CZC9B92tRA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
