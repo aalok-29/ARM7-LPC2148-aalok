@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "single_led_blink.o" --strict --scatter "SINGLE_LED_BLINK.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SINGLE_LED_BLINK.map" -o SINGLE_LED_BLINK.axf
