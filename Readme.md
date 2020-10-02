@@ -10,7 +10,7 @@ ARM7 LPC2148 Microcontroller Socket is used with LPC2148 Pro Development Board. 
 - Operating Supply: 3.3V
 - Power on reset circuit with MCP 130T brownout detection
 
-## LPC2148 Features
+## LPC2148 FEATURES
 
 1. 16-bit/32-bit ARM7TDMI-S microcontroller in a tiny LQFP64 package.
 
@@ -30,7 +30,7 @@ ARM7 LPC2148 Microcontroller Socket is used with LPC2148 Pro Development Board. 
 
 9. Low power Real-Time Clock (RTC) with independent power and 32 kHz clock input.
 
-10. Multiple serial interfaces including two UARTs, two Fast I²C-bus (400 kbit/s), SPI and SSP with buffering and variable data length capabilities.
+10. Multiple serial interfaces including two UARTs, two Fast IÂ²C-bus (400 kbit/s), SPI and SSP with buffering and variable data length capabilities.
 
 11. Vectored Interrupt Controller (VIC) with configurable priorities and vector addresses.
 
