@@ -7,11 +7,15 @@ void main()
 	PWMMR0=200000;
 	PWMTCR=0x09;
 	PWMMCR=0x02;
+	PWMTCR=0x09;
+	PWMMCR=0x02;
 	
   while(1)
 	{
 		PWMMR1=75000;
 		PWMMR2=175000;
+		PWMLER=0x6;
+	  PWMMR2=175000;
 		PWMLER=0x6;
 	}
 	
